@@ -1,0 +1,26 @@
+<header>
+  <h1>Ember and Product</h1>
+  {{!-- <p>It will not work until you click on the "Javascript" link.</p> --}}
+
+</header>
+
+{{!--  Just In case for navigation--}}
+<nav>
+  {{#link-to "index"}}
+      Product List
+  {{/link-to}}
+
+  {{#link-to "about"}}
+      About
+  {{/link-to}}
+
+
+</nav>
+
+
+
+{{outlet}}
+
+<footer>
+  <p>&copy; ITP USC Yifan Wang</p>
+</footer>
